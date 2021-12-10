@@ -1,0 +1,19 @@
+<div class="row justify-content-center">
+        <div class="col-8">
+            <div class="row justify-content-center">
+                <h2>{{ weather?.name }}</h2>
+            </div>
+            <div class="row">
+                <div class="col border">
+                    <h3>Humidity: {{ weather?.main.humidity }}</h3>
+                    <h3>Temperature (Average): {{ avgTemp }}</h3>
+                    <h3>Temperature (Low): {{ minTemp }}</h3>
+                    <h3>Temperature (High): {{ maxTemp }}</h3>
+                    <h3>Status: {{weather?.weather[0].description}} </h3>
+                </div>
+                <div class="col px-0 text-right align-content-end border">
+                    <img class="" src="https://images.unsplash.com/photo-1524168272322-bf73616d9cb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" style="height: 300px; width: 560px; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>

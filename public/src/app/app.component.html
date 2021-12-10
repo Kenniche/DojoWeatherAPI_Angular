@@ -1,0 +1,19 @@
+<section>
+  <div class="row justify-content-around">
+    <h1 class="font-weight-light">Dojo Weather Forecast</h1>
+  </div>
+  <div class="row justify-content-center">
+    <button class='col-1 btn btn-info my-4 mx-1' [routerLink]="['/seattle']">Seattle</button>
+
+    <button class='col-1 btn btn-info my-4 mx-1' [routerLink]="['/dc']">DC</button>
+
+    <button class='col-1 btn btn-info my-4 mx-1' [routerLink]="['/burbank']">Burbank</button>
+
+    <button class='col-1 btn btn-info my-4 mx-1' [routerLink]="['/sanjose']">San Jose</button>
+
+    <button class='col-1 btn btn-info my-4 mx-1' [routerLink]="['/dallas']">Dallas</button>
+
+    <button class='col-1 btn btn-info my-4 mx-1' [routerLink]="['/chicago']">Chicago</button>
+  </div>
+</section>
+<router-outlet></router-outlet>
